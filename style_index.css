@@ -1,0 +1,1214 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*                  */
+/*      LE HEADER   */
+/*                  */
+
+p                   /*propriétés supplémentaires pour annulées celles de bootstrap*/
+{         
+    margin: 0;
+}
+h2                  /*propriétés supplémentaires pour annulées celles de bootstrap*/
+{
+    margin: 0;
+}
+h1
+{
+    margin: 0;
+}
+
+
+header
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(35, 34, 34); */
+    background-image: radial-gradient(closest-side, rgb(66, 22, 6),rgb(35, 34, 34));
+
+}
+
+/*                  */
+/*      LA NAV      */
+/*                  */
+
+nav     /*LA NAV AVEC BOOTSTRAP*/
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img
+{
+    
+    width: 86px;
+    height: 56px;
+}
+
+.div_h1 /*nom prénom métier*/
+{
+    height: 705vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.titre1             /*les deux h1*/
+{
+    width: 364px;
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 48px;
+}
+.titre2
+{
+    position: relative;
+    left: 60px;
+    /* width: 364px; */
+    color: rgb(251, 176, 59);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+/*                  */
+/*      A PROPOS    */
+/*                  */
+
+.a_propos   /*la section conteneur*/
+{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(35,34,34),rgb(55,54,54));
+}
+
+.container_propos
+{
+    width: 80%;
+    display: flex;
+
+}
+
+.propos_titre   /*la div de gauche*/
+{
+    width: 40%;
+    margin-right: 10%;
+}
+
+.propos_h2
+{
+    height: 40px;
+    color: rgb(252, 244, 232);
+    font-family: 'Quando', serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.propos_titre p:nth-child(2)
+{
+    text-align: justify;
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.coordonne  /*la div de droite*/
+{
+    width: 40%;
+    height: 380px;
+    margin-left: 10%;
+    display: flex;
+}
+
+.div_icones     /*la div icones verticale*/
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icone /*la div de chaque icones*/
+{
+    height: 60px;
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone img  /*la taille des icones*/
+{
+    height: 30px;
+    width: 40px;
+}
+
+.icone:nth-child(2) img
+{
+    height: 35px;
+    width: 35px;
+}
+
+.icone:nth-child(4) img
+{
+    height: 35px;
+    width: 35px;
+}
+
+.texte_coor
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.texte_coor p   /*l'alignement des paragraphes*/
+{
+    height: 60px;
+    width: 100%;
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+/*                  */
+/*      COMPETENCES */
+/*                  */
+
+.competences    /*la page 100%*/
+{
+    width: 100%;
+    /* height: 900px; */
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(55,54,54),rgb(35,34,34));
+}
+
+.container_competences  /*le container*/
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2      /*le titre compétences*/
+{
+    height: 140px;
+    width: 100%;
+    /* margin-bottom: 40px; */
+    color: rgb(251, 176, 59);
+    font-family: 'Quando', serif;
+    font-weight: 300;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones_comp    /*la div des icones*/
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.logo_gauche    /*les icones de gauche*/
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center; 
+}
+.logo_gauche img:nth-child(1)
+{
+    width: 57px;
+    height: 29px;
+}
+.logo_gauche img:nth-child(2)
+{
+    width: 50px;
+    height: 50px;
+}
+.logo_gauche img:nth-child(3)
+{
+    width: 50px;
+    height: 50px;
+}
+.logo_gauche img:nth-child(4)
+{
+    width: 38px;
+    height: 50px;
+}
+.logo_gauche img:nth-child(5)
+{
+    width: 38px;
+    height: 50px;
+}
+
+.logo_droite    /*les icones de droite*/
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+.logo_droite img:nth-child(1)
+{
+    width: 32px;
+    height: 50px;
+}
+.logo_droite img:nth-child(2)
+{
+    width: 50px;
+    height: 50px;
+}
+.logo_droite img:nth-child(3)
+{
+    width: 50px;
+    height: 50px;
+}
+
+.comp_global    /*div des deux colonnes progressbar*/
+{
+    width:100%;
+    display: flex;
+}
+
+.comp_titre_g       /*programmation web*/
+{
+    height: 50px;
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.comp_titre_d       /*infographie*/
+{
+    height: 50px;
+    text-align: end;
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.progresstext_g     /*nom progress bar gauche*/
+{
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 18px;
+}
+.marg               /*margin entre progress bar */
+{
+    margin-top: 40px;
+}
+
+.progresstext_d   /*nom progress bar droite*/
+{
+    text-align: end;
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*                  */
+/*      FORM & EXP  */
+/*                  */
+
+.formxp     /*la page entière*/
+{
+    width: 100%;
+    /* height: 900px; */
+    padding-bottom: 100px;
+    background-image: radial-gradient(closest-side, rgb(66, 22, 6),rgb(35, 34, 34));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.formxp h2
+{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.container_formxp       /*le container formxp*/
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forma          /*la colonne de gauche formations*/ 
+{
+    width: 50%;
+    padding-right: 3rem;
+    
+}
+.formh3                 /*titre la colonne de gauche*/
+{
+    margin: 0;
+    padding-left: 20px;
+    height: 50px;
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;  
+}
+
+.etiquette_forma        /*étiquette des formations*/
+{
+    width: 100%;
+    height: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(252, 235, 211);
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forma .etiquette_forma:nth-child(3)
+{
+    background-color: rgb(251, 176, 59);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.forma .etiquette_forma:nth-child(5)
+{
+    background-color: rgb(251, 176, 59);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Pforma     /*le paragraphe intérieur*/
+{
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    text-align: right;
+}
+
+
+.date       /*Propriétés des dates*/
+{
+    width: 100px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.exp    /*la colonne de droite expériences*/
+{
+    width: 50%;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}  
+.exph3      /*titre exp pro*/
+{
+    margin: 0;
+    height: 50px;
+    padding-right: 20px;
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;   
+}
+.between        /*div pour placement des 3 etiquettes*/
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.etiquette_exp
+{
+    width: 100%;
+    height: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(252, 235, 211);
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.exp .etiquette_exp:nth-child(1)
+{
+    background-color: rgb(251, 176, 59);
+}
+.exp .etiquette_exp:nth-child(3)
+{
+    background-color: rgb(251, 176, 59);
+}
+.Pexp           /*paragraphe exp*/
+{
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+}
+.large          /*largeur énoncer des exp*/
+{
+    width: 350px;
+}
+
+/*                  */
+/*      Portfolio   */
+/*                  */
+
+.portfolio  /*la page entière*/
+{
+    width: 100%;
+    /* height: 900px; */
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgb(35,34,34),rgb(55,54,54),rgb(35,34,34));
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+}
+
+.container_portfolio        /*le container*/
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.binome         /*la colonne de deux vignettes*/
+{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container_portfolio .binome:nth-child(2) /*espacement div du milieu*/
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.port_lien      /*dimension du lien "a"*/
+{
+    height: 241px;
+    width: 100%;
+}
+.marg_bot       /*espacement du milieu entre les "a"*/
+{
+    margin-bottom: 40px;
+}
+
+.port_img       /*dimension de l'image*/
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.largeur_bouton     /*div du bouton*/
+{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.suite      /*le bouton "Voir la suite"*/
+{
+    width: 196px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(251, 176, 59);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*                  */
+/*      Loisirs     */
+/*                  */
+
+.loisirs
+{
+    width: 100%;
+    /* height: 900px; */
+    padding-bottom: 100px;
+    background-color: rgb(35,34,34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_loisirs
+{
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+}
+
+.div_hobbie
+{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.h3_loi
+{
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.p_loisirs
+{
+    width: 250px;
+    text-align: center;
+    color: rgb(252, 244, 232);
+    font-size: 16px;
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+}
+.p_dim
+{
+    width: 350px;
+    height: 24px;
+}
+.img_loi_1
+{
+    width: 63px;
+    height: 186px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.img_loi_2
+{
+    width: 328px;
+    height: 178px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.img_loi_3
+{
+    width: 263px;
+    height: 197px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*                  */
+/*      Contact     */
+/*                  */
+
+.contact        /*la page contact*/
+{
+    width: 100%;
+    /* height: 900px; */
+    padding-bottom: 100px;
+    background-image: radial-gradient(closest-side, rgb(66, 22, 6),rgb(35, 34, 34));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_contact  /*le container*/
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_contact   /*la div de gauche*/
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para_contact
+{
+    color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;  
+}
+
+.formulaire     /*la div de droite*/
+{
+    width: 40%;
+}
+.liste      /*balise "P" du form*/
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.liste label
+{
+    color: rgb(241, 90, 36);
+    font-family: 'Red Rose', cursive;
+    font-weight: 400;
+    font-size: 18px;    
+}
+.liste input        /*zone de texte*/
+{
+    color: rgb(241, 90, 36);
+    /* font-weight: 400; */
+    height: 35px;
+    background-color: rgb(252, 244, 232);
+    border-radius: 10px;    
+    border: none;
+    padding-left: 10px;
+
+}
+.liste input:nth-child(2)
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.liste textarea     /*zone de texte message*/
+{
+    background-color: rgb(252, 244, 232); 
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    color: rgb(241, 90, 36);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.p_btn      /*la para pour placement du bouton*/
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_send   /*le bouton "Envoyer"*/
+{
+    width: 196px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(251, 176, 59);
+    font-family: 'Red Rose', cursive;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*                  */
+/*      Footer      */
+/*                  */
+
+footer
+{
+    width: 100%;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(55,54,54);
+}
+.container_footer
+{
+    width: 80%;
+    display: flex;
+}
+.div_foot
+{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin
+{
+    display: inline-block;
+    object-fit: cover;
+    width: 33px;
+    height: 33px;
+    background-image: url(/img/linkedin33.png);
+}
+.btn_cv_papier
+{
+    width: 196px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(252, 244, 232);
+    font-family: 'Red Rose', cursive;
+    font-weight: 400;
+    font-size: 18px;   
+    /* background-image: url(/img/download.png);*/
+}
+.back_to_menu       /*bouton de retour au menu*/
+{
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/back_icon_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 12%;
+    right: 2%;
+    z-index: 25;
+}
+
+
+
+
+/***               ***/
+/***  MEDIA QUERY  ***/
+/***               ***/
+
+
+
+@media screen AND (max-width : 1200px)      /*balise pour le responsive à 1200px*/
+{
+
+    /***                ***/
+    /***    A PROPOS    ***/
+    /***    1200px      ***/
+
+    .container_propos       /*container propos*/
+    {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .propos_h2          /*le titre "a propos"*/
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .propos_titre       /*colonne de gauche*/
+    {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .propos_titre p
+    {
+        width: 100%;
+        font-size: 15px;
+    }
+    .coordonne          /*colonne de droite*/
+    {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .div_icones
+    {
+        width: 45px;
+    }
+    .icone
+    {
+        width: 45px;
+    }
+    .texte_coor
+    {
+        margin-left: 10px;
+    }
+    .texte_coor p
+    {
+        font-size: 16px;
+    }
+
+    /***                ***/
+    /***    COMPETENCES ***/
+    /***    1200px      ***/
+    .competences
+    {
+        padding-bottom: 50px;
+    }
+    .icones_comp        /*div horizon des icones*/
+    {
+        display: none;
+    }
+
+    .comp_titre_g
+    {
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+
+    .comp_titre_d
+    {
+        margin-top: 50px;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+    .progresstext_d
+    {
+        text-align: start;
+    }
+
+
+    /***                ***/
+    /***    FORM & EXP  ***/
+    /***    1200px      ***/
+     
+    .formxp
+    {
+        padding-bottom: 50px;
+    }
+    .formxp h2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container_formxp       /*conteneur*/
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .forma          /*div de gauche*/
+    {
+      width: 100%;  /*100%*/
+      padding: 0;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .Pforma
+    {
+        font-size: 16px;
+    }
+    .formh3
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+    .etiquette_forma
+    {
+        width: 580px;
+        /* width: 330px; */
+        height: 160px;
+    }
+    .date
+    {
+        width: 90px;
+        height: 140px;
+    }
+    
+    .exp            /*div de droite*/
+    {
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .between
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .exph3
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+    .etiquette_exp
+    {
+        width: 580px;    /*100%*/
+    }
+    .between .etiquette_exp:nth-child(2)
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Pexp
+    {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    /***                ***/
+    /***    PORTFOLIO   ***/
+    /***    1200px      ***/ 
+
+    .container_portfolio
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .binome         /*div portfolio x2 vertical*/
+    {
+        width: 580px; /*100%*/
+    }
+    .binome:nth-child(2)
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .port_lien      /*dimension du lien "a"*/
+    {
+    height: 300px;  /*241px*/
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    .marg_bot       /*espacement du milieu entre les "a"*/
+    {
+    margin-bottom: 20px;
+    }
+    .largeur_bouton
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    /***                ***/
+    /***    LOISIRS     ***/
+    /***    1200px      ***/ 
+
+    .container_loisirs
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div_hobbie
+    {
+        width: 100%;
+    }
+    .div_hobbie:nth-child(2)
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .img_loi_1
+    {
+        width: 60px;
+        height: 180px;
+    }
+    .img_loi_2
+    {
+        width: 213px;
+        height: 115px;
+    }
+    .img_loi_3
+    {
+        width: 171px;
+        height: 128px;
+    }
+
+    /***                ***/
+    /***    CONTACT     ***/
+    /***    1200px      ***/
+
+    .text_contact       /*div de gauche*/
+    {
+        width: 100%;
+        
+    }
+
+    .container_contact
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulaire     /*div de droite*/
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    form
+    {
+        width: 100%;
+    }
+    .liste
+    {
+        width: 100%;
+    }
+    .liste input:nth-child(1)
+    {
+        margin-top: 20px;
+    }
+
+    /***                ***/
+    /***    FOOTER      ***/
+    /***    1200px      ***/
+
+
+    .btn_cv_papier
+    {
+        border-radius: 15px;
+        font-size: 14px;
+    }
+}/*fermeture du media query de 1200px*/
+
+
+@media screen AND (max-width: 600px)    /*breackpoint à 600px*/
+{
+
+    /***                ***/
+    /***    LE HEADER   ***/
+    /***    600px       ***/ 
+     
+    .div_h1
+    {
+        height: 577px;
+    }
+    .titre1         /*le titre H1*/
+    {
+        width: 190px;
+        font-size: 24px;
+    }
+    .titre2
+    {
+        position: relative;
+        left: 40px;
+        font-size: 18px;
+    }
+    
+    /***                ***/
+    /***    FORM & EXP  ***/
+    /***    600px       ***/
+    .etiquette_forma
+    {
+        width: 100%;
+        height: 160px;
+    }
+    .Pforma
+    {
+        font-size: 14px;
+    }
+
+    .etiquette_exp
+    {
+        width: 100%;    /*100%*/
+    }
+    .Pexp
+    {
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    /***                ***/
+    /***    PORTFOLIO   ***/
+    /***    600px       ***/ 
+
+    .container_portfolio
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .binome         /*div portfolio x2 vertical*/
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .binome:nth-child(2)
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .port_lien      /*dimension du lien "a"*/
+    {
+    height: 200px;  /*180px*/
+    width: 350px;   /*100%*/
+    margin-bottom: 20px;
+    }
+    .marg_bot       /*espacement du milieu entre les "a"*/
+    {
+    margin-bottom: 20px;
+    }
+    .largeur_bouton
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }    
+    
+}/*fermeture du media query de 600px*/
