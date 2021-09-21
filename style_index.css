@@ -1149,6 +1149,7 @@ footer
     /***                ***/
     /***    FORM & EXP  ***/
     /***    600px       ***/
+
     .etiquette_forma
     {
         width: 100%;
@@ -1167,6 +1168,10 @@ footer
     {
         font-size: 14px;
         margin-right: 0;
+    }
+    .exph3
+    {
+        text-align: center;
     }
 
     /***                ***/
