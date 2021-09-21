@@ -781,7 +781,7 @@ footer
     object-fit: cover;
     width: 33px;
     height: 33px;
-    background-image: url(/img/linkedin33.png);
+    background-image: url(img/linkedin33.png);
 }
 .btn_cv_papier
 {
@@ -799,7 +799,7 @@ footer
 {
     width: 20px;
     height: 20px;
-    background-image: url(/img/back_icon_2.png);
+    background-image: url(img/back_icon_2.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
